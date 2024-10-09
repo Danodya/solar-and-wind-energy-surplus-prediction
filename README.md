@@ -46,9 +46,9 @@ The goal is to create a model that can predict, at least 24 hours in advance, wh
 - Number of windmills in Brighton that contribute to wind energy: 116.
 
 **References for wind energy calculation**:  
-- Penn State  
-- ICE  
-- Rampion Offshore Wind Farm  
+- [Penn State]([https://openai.com](https://www.e-education.psu.edu/emsc297/node/649#:%7E:text=We'll%20start%20with%20a,kW%20(8%20times%20as%20large)))
+- [ICE](https://www.ice.org.uk/engineering-resources/briefing-sheets/wind-energy)  
+- [Rampion Offshore Wind Farm](https://rampionoffshorewindfarm.co.uk/key-facts/#:%7E:text=The%20Rampion%20Offshore%20Wind%20Farm,foundation%20fixed%20into%20the%20seabed.) 
 
 **Solar Energy Calculation Assumptions**:  
 - Efficiency of the PV panel: 20%.  
@@ -57,23 +57,23 @@ The goal is to create a model that can predict, at least 24 hours in advance, wh
 - Number of panels: 369 * 4 (considering 4 panels installed in each of the 369 houses and shops in Brighton).  
 
 **References for solar energy calculation**:  
-- EcoFlow  
-- RayMaps  
-- Brighton & Hove  
+- [EcoFlow](https://blog.ecoflow.com/us/how-to-calculate-solar-panel-output/)  
+- [RayMaps](https://www.raymaps.com/index.php/how-to-calculate-the-area-required-by-solar-panels/)  
+- [Brighton & Hove](https://www.brighton-hove.gov.uk/news/2023/hundreds-council-homes-switch-solar-power)  
 
 **Electricity Surplus Threshold**:  
 - 95.48 MW of average hourly demand is taken as the threshold to define energy surplus.  
 
 **Reference to define energy surplus**:  
-- Utility Bidder  
-- 114,479 houses in Brighton (Brighton & Hove)  
+- [Utility Bidder](https://www.utilitybidder.co.uk/compare-business-energy/what-is-the-average-household-energy-usage/#:%7E:text=What%20is%20the%20average%20electricity,factors%20that%20affect%20this%20figure)
+- 114,479 houses in Brighton [(Brighton & Hove)](https://www.brighton-hove.gov.uk/sites/default/files/migrated/subject/inline/downloads/citystats/4_Housing.pdf)  
 - Consumer behavior factor: 2  
 
 **Model Selection Reference**:  
-- RNN model with LSTM architecture
+- RNN model with LSTM architecture [source](https://www.scielo.org.mx/pdf/cys/v22n4/1405-5546-cys-22-04-1085.pdf)
 
 **Electricity Cost per Megawatt Assumption**:  
-- Cost per Megawatt: £60
+- Cost per Megawatt: £60 [reference](https://www.utilitybidder.co.uk/business-electricity/price-of-1-mwh-electricity/)
 
 ## Steps to Run the Code  
 
